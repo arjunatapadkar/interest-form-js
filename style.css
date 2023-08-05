@@ -1,0 +1,168 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+.wrapper{
+
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: #e2e1e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    font-size: larger;
+}
+
+.form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 5rem 0;
+    padding: 3rem;
+    background: #fff;
+}
+h3{
+    margin: auto;
+    width: 400px;
+    background: rgb(190, 215, 251);
+    text-align: center;
+    padding: 1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    border-top-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+}
+h3:hover{
+    background: rgb(159, 191, 235);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.basic_info{
+    display:flex;
+    flex-direction: column;
+}
+
+.form-element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt{
+    all: unset;
+    width: 20rem;
+    height: 25px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+
+.contact{
+    display: flex;
+    gap: 4rem;
+}
+
+.radio{
+    display: flex;
+    gap: 2rem;
+}
+
+
+/* Shared Activities */
+.shared{
+    /* display: flex; */
+}
+
+.shared-opt{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.opt-cont{
+
+    display: flex;
+    gap: 4rem;
+    
+}
+
+.opt-btn{
+    display: flex;
+    gap: 2rem;
+}
+
+.merge{
+    display: flex;
+    gap: 5rem;
+}
+
+/* .off{
+    opacity: 0.6;
+} */
+
+.coffee{
+    display: flex;
+    gap: 2rem;
+}
+
+.favors{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.ch{
+    font-weight: bold;
+}
+
+.txt-opt{
+    all: unset;
+    width: 10rem;
+    
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    padding: 1.5rem;
+    background-color: #fff;
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
+    border-radius: 1rem;
+}
+
+
+.tut{
+    display: flex;
+    gap: 2rem;
+}
+
+button{
+    all: unset;
+    display: flex;
+    width: 6rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 5px;
+    background-color: rgb(190, 215, 251);
+}
+button:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+    background-color: rgb(159, 191, 235);
+}
